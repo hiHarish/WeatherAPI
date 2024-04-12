@@ -1,0 +1,40 @@
+ body {
+    background-image: url("weather-forecast.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fcbe24;
+    height: 100vh;
+    align-items: center;
+    /* overflow: hidden; */
+    font-size: larger
+    } 
+.box{
+
+  border-radius: 5%;
+  /*background-color: black;*/
+  background: rgba(0,0,0,0.5);;
+  text-align: center;
+  margin: 0 30% 0 35%;
+  padding: 0;
+  width: 30%;
+  height: fit-content;
+
+}
+input{
+  height: 20px;
+  border-radius: 5%;
+  color:black;
+  background-color: transparent;
+}
+#search{
+  background-color: transparent;
+  height: 12px;
+  width: 13px;
+}
+#cloud{
+  height: 100px;
+  width: 100px;
+}
+ #btn{
+  background-color: transparent;
+} 
